@@ -26,7 +26,7 @@ interface BasinState {
  *   ></form>
  * );
  */
-function useBasin(id: string) {
+function useBasin(id: string): [BasinState, React.FormEventHandler<HTMLFormElement>] {
   if (!id) throw new Error(`Argument 'id' is required. Please provide a Basin Forms ID.`);
 
   const [state, setState] = useState<BasinState>({
