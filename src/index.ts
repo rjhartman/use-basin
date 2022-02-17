@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React = require('react');
 
-export interface BasinState {
+interface BasinState {
   submitted: boolean;
   pending: boolean;
   error: boolean;

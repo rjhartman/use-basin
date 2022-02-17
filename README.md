@@ -48,8 +48,7 @@ const Form = () => {
   if (pending) return <div>Submitting...</div>;
   if (error) return <div>Something went wrong =(</div>;
   if (submitted) return <div>Thanks for submitting our form!</div>;
-  return;
-  <form onSubmit={submit}>{/*  inputs... */}</form>;
+  return <form onSubmit={submit}>{/*  inputs... */}</form>;
 };
 ```
 
@@ -57,8 +56,8 @@ const Form = () => {
 
 The following variables are returned in an object as the first value in the array:
 
-| Name      | Description                                                          | Type      |
-| --------- | -------------------------------------------------------------------- | --------- |
-| Submitted | A flag indicating whether or not the form has been submitted.        | `boolean` |
-| Pending   | A flag indicating that a POST request has started but not completed. | `boolean` |
-| Error     | A flag that the most recent POST request failed.                     | `boolean` |
+| Name      | Description                                   | Type      |
+| --------- | --------------------------------------------- | --------- |
+| Submitted | The form has been submitted                   | `boolean` |
+| Pending   | A POST request has started but not completed. | `boolean` |
+| Error     | The most recent POST request failed.          | `boolean` |
