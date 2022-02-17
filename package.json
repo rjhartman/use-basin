@@ -1,5 +1,5 @@
 {
-  "name": "use-basin",
+  "name": "@esquiredigital/use-basin",
   "version": "1.0.0",
   "description": "A simple React hook for handling Basin AJAX forms.",
   "main": "lib/index.js",
@@ -45,5 +45,13 @@
   },
   "peerDependencies": {
     "react": "^16.8.3 || ^17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esquire-Digital/use-basin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Esquire-Digital/use-basin/issues"
+  },
+  "homepage": "https://github.com/Esquire-Digital/use-basin#readme"
 }
