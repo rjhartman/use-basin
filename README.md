@@ -7,7 +7,7 @@ A simple React hook for handling Basin AJAX forms.
 Install the package:
 
 ```sh
-npm i -D @esquiredigital/use-basin
+npm i -D use-basin
 ```
 
 **Note**: a React version above 16.8.3 must be installed as a peer dependency.
@@ -17,7 +17,7 @@ npm i -D @esquiredigital/use-basin
 Create a form that will submit to Basin using AJAX:
 
 ```js
-import useBasin from '@esquiredigital/use-basin';
+import useBasin from 'use-basin';
 
 const Form = () => {
   const [state, submit] = useBasin('<form-id>');
@@ -41,7 +41,7 @@ const onSubmit = (e) => {
 You can also use the returned state object for loaders and error handling:
 
 ```js
-import useBasin from '@esquiredigital/use-basin';
+import useBasin from 'use-basin';
 
 const Form = () => {
   const [{ pending, error, submitted }, submit] = useBasin('<form-id>');
