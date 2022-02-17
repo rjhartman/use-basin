@@ -1,6 +1,6 @@
 {
   "name": "use-basin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React hook for handling Basin AJAX forms.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
