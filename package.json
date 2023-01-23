@@ -1,12 +1,10 @@
 {
   "name": "use-basin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple React hook for handling Basin AJAX forms.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "lib/**/*"
-  ],
+  "files": ["lib/**/*"],
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -18,12 +16,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": [
-    "react",
-    "hook",
-    "form",
-    "basin"
-  ],
+  "keywords": ["react", "hook", "form", "basin"],
   "author": "Ryan Hartman",
   "license": "MIT",
   "devDependencies": {
